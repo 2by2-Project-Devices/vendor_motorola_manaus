@@ -859,7 +859,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/hw/mt6855/vendor.mediatek.hardware.pq@2.15-impl.so",
             ],
             shared_libs: [
-                "libshim_sensors",
+                "android.hardware.sensors@1.0-convert-shared",
                 "libhidlbase",
                 "libhidltransport",
                 "libhwbinder",
@@ -28244,6 +28244,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libnvram.so",
             ],
             shared_libs: [
+                "libbase_shim",
                 "libcutils",
                 "libbase",
                 "liblog",
@@ -28259,6 +28260,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libnvram.so",
             ],
             shared_libs: [
+                "libbase_shim",
                 "libcutils",
                 "libbase",
                 "liblog",
@@ -28701,6 +28703,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libsysenv.so",
             ],
             shared_libs: [
+                "libbase_shim",
                 "liblog",
                 "libbase",
                 "libc++",
@@ -28714,6 +28717,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libsysenv.so",
             ],
             shared_libs: [
+                "libbase_shim",
                 "liblog",
                 "libbase",
                 "libc++",
@@ -28740,6 +28744,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libtflite_mtk.so",
             ],
             shared_libs: [
+                "libbase_shim",
                 "liblog",
                 "libflatbuffers-cpp",
                 "libruy",
@@ -28755,6 +28760,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libtflite_mtk.so",
             ],
             shared_libs: [
+                "libbase_shim",
                 "liblog",
                 "libflatbuffers-cpp",
                 "libruy",
@@ -30975,6 +30981,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/mt6855/libmtkcam_stdutils.so",
             ],
             shared_libs: [
+                "libbase_shim",
                 "liblog",
                 "libutils-v32",
                 "libcutils",
@@ -31170,6 +31177,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/mt6855/libneuralnetworks_sl_driver_mtk_prebuilt.so",
             ],
             shared_libs: [
+                "libbase_shim",
                 "libcutils",
                 "liblog",
                 "libnativewindow",
@@ -31184,6 +31192,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/mt6855/libneuralnetworks_sl_driver_mtk_prebuilt.so",
             ],
             shared_libs: [
+                "libbase_shim",
                 "libcutils",
                 "liblog",
                 "libnativewindow",
@@ -37189,7 +37198,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/hw/android.hardware.sensors@2.X-subhal-mediatek.so",
             ],
             shared_libs: [
-                "libshim_sensors",
+                "android.hardware.sensors@1.0-convert-shared",
                 "android.hardware.sensors@1.0",
                 "android.hardware.sensors@2.0",
                 "android.hardware.sensors@2.0-ScopedWakelock",
@@ -37399,6 +37408,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/hw/hwcomposer.mtk_common.so",
             ],
             shared_libs: [
+                "libprocessgroup_shim",
                 "libutils",
                 "libcutils",
                 "liblog",
@@ -37554,6 +37564,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/hw/mt6855/android.hardware.camera.provider@2.6-impl-mediatek.so",
             ],
             shared_libs: [
+                "libbase_shim",
                 "libmtkcam_device3_hidl",
                 "liblog",
                 "libutils-v32",
@@ -41405,6 +41416,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libstfactory-vendor.so",
             ],
             shared_libs: [
+                "libbase_shim",
                 "libcutils",
                 "libutils",
                 "liblog",
@@ -43676,6 +43688,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/mt6855/libcam.hal3a.v3.so",
             ],
             shared_libs: [
+                "libprocessgroup_shim",
                 "libcam.hal3a.v3.platform",
                 "lib3a.ccudrv",
                 "lib3a.ccuif",
@@ -44116,7 +44129,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/mt6855/libcam.utils.sensorprovider.so",
             ],
             shared_libs: [
-                "libshim_sensors",
+                "android.hardware.sensors@1.0-convert-shared",
                 "liblog",
                 "libmtkcam_ulog",
                 "libutils",
@@ -47693,6 +47706,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/sensors.moto.so",
             ],
             shared_libs: [
+                "libbase_shim",
                 "android.hardware.sensors@1.0",
                 "android.hardware.sensors@2.0",
                 "android.hardware.sensors@2.0-ScopedWakelock",
@@ -50989,7 +51003,7 @@ cc_prebuilt_binary {
                 "proprietary/vendor/bin/mnld",
             ],
             shared_libs: [
-                "libshim_sensors",
+                "android.hardware.sensors@1.0-convert-shared",
                 "libmnl",
                 "libcurl",
                 "libcutils",
