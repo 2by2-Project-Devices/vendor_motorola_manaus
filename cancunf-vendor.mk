@@ -331,8 +331,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cancunf/proprietary/vendor/firmware/WIFI_RAM_CODE_soc2_2_1c_1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/WIFI_RAM_CODE_soc2_2_1c_1.bin \
     vendor/motorola/cancunf/proprietary/vendor/firmware/WMT_SOC.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/WMT_SOC.cfg \
     vendor/motorola/cancunf/proprietary/vendor/firmware/WMT_SOC_CANCUNF.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/WMT_SOC_CANCUNF.cfg \
-    vendor/motorola/cancunf/proprietary/vendor/firmware/WMT_SOC_CANCUNN_FEM.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/WMT_SOC_CANCUNN_FEM.cfg \
-    vendor/motorola/cancunf/proprietary/vendor/firmware/WMT_SOC_devonn_epa.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/WMT_SOC_devonn_epa.cfg \
     vendor/motorola/cancunf/proprietary/vendor/firmware/aw86006.prog:$(TARGET_COPY_OUT_VENDOR)/firmware/aw86006.prog \
     vendor/motorola/cancunf/proprietary/vendor/firmware/aw86006vcmyova.prog:$(TARGET_COPY_OUT_VENDOR)/firmware/aw86006vcmyova.prog \
     vendor/motorola/cancunf/proprietary/vendor/firmware/aw87xxx_acf.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw87xxx_acf.bin \
