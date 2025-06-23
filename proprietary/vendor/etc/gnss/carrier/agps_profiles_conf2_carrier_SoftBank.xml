@@ -32,7 +32,7 @@
 
   <up_setting
     imsi_enable="true"
-    dedicated_apn_enable="false"
+    dedicated_apn_enable="true"
     preferred_2g3g_cell_age="0"
     lpp_enable="false"
     allow_ni_for_gps_off="true"

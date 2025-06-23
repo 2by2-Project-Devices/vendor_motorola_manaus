@@ -1,29 +1,29 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<mnl_config version="21111601.6.00.99" type="gps">
+<mnl_config version="22072501.6.0M.99" type="gps">
 
     <feature>IFB
         <version>1.0</version>
         <config>1</config>
         <format> CH:-7 to 6 </format>
-        <setting>-8.64,-7.79,-6.16,-0.70,-1.12,-4.46,-1.22,0,-0.30,-0.04,-0.96,-1.16,-2.37,-3.54</setting>
+        <setting>-7.53,-6.66,-4.80,0.83,0.37,-3.61,-0.60,0,-1.65,-1.93,-3.56,-4.50,-7.36,-9.02</setting>
     </feature>
-    
+
     <feature>GGTO
         <version>1.0</version>
         <config>1</config>
         <format> GLONASS time offset, BEIDOU time offset, GALILEO time offset, NAVIC time offset, Unit: meter </format>
-        <setting>12.18,0.90,3.13,18.53</setting>
+        <setting>12.53,-3.39,2.92,24.89</setting>
     </feature>
-    
+
     <feature>DCB
         <version>1.0</version>
         <config>1</config>
         <format>L5_DCB_GPS,L5_DCB_QZSS,L5_DCB_CNSS,L5_DCB_GALILEO</format>
-        <setting>3.03,3.01,0.81,1.96</setting>
+        <setting>6.63,6.67,8.71,5.69</setting>
         <format>L1C_DCB_GPS,L1C_DCB_QZSS,B1C_DCB_CNSS</format>
-        <setting>0,0,0</setting>        
+        <setting>0,0,5.69</setting>        
     </feature>
-    
+
     <feature>L1Only
         <version>1.0</version>
         <config>0</config>
@@ -43,7 +43,7 @@
         <config>0</config>
         <format>Disable B1C: 1</format>
         <setting>0</setting>
-    </feature>    
+    </feature>
 
     <feature>GLP
         <version>2.0</version>
@@ -71,7 +71,7 @@
     <feature>Bluesky
         <version>1.0</version>
         <config>1</config>
-        <format>enable:0,disable:1</format>
+        <format>disable:0, problos+position aiding:1, ebearing:2, driving:3</format>
         <setting>3</setting>
     </feature>
 
@@ -96,10 +96,18 @@
         <setting>0</setting>
     </feature>
 
-    <feature>MDTime
+    <feature>Time_Source
         <version>1.0</version>
+        <config>1</config>
+        <format>RAT,SIB</format>
+        <setting>50,6</setting>
+    </feature>
+
+    <feature>MDTime
+        <version>2.0</version>
         <config>1</config>
         <format>featureOption,requestInterval,sizeOfWindow,syncBackNum(optional)</format>
         <setting>1,5000,1500,0</setting>
     </feature>
+
 </mnl_config>

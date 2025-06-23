@@ -4,11 +4,6 @@
 #
 # Copyright (c) 2019 Lenovo
 # All rights reserved.
-#
-# April 15, 2019  chengql2@lenovo.com  Initial version
-# December 2, 2019  chengql2  Store fps_id into persist fs
-# November 19, 2020 zengzm refactor the code, support more than 3 fingerprint sensors; support config.
-
 # get the filename, contains the file postfix
 script_name=${0##*/}
 # remove the file postfix
@@ -27,10 +22,10 @@ GKI_PATH=$(getprop $PROP_GKI_PATH)
 # hal_list: the array contains the hal service name.
 #
 # note: all arrays should have the same size.
-vendor_list=('goodix' 'chipone')
-kernel_so_list=("/vendor/lib/modules/$GKI_PATH/goodix_fps_tee.ko" "/vendor/lib/modules/$GKI_PATH/fpsensor_mtk_spi.ko")
-kernel_so_name_list=("goodix_fps_tee.ko" "fpsensor_mtk_spi.ko")
-hal_list=('goodix_hal' 'chipone_fp_hal')
+vendor_list=('goodix' 'egis')
+kernel_so_list=("/vendor/lib/modules/$GKI_PATH/goodix_mtk_fod.ko" "/vendor/lib/modules/$GKI_PATH/ets_fod_mmi.ko")
+kernel_so_name_list=("goodix_mtk_fod.ko" "ets_fod_mmi.ko")
+hal_list=('goodix_hal' 'ets_hal')
 last_vendor_index=`expr ${#vendor_list[@]} - 1`
 vendor_list_size=${#vendor_list[@]}
 
@@ -56,7 +51,7 @@ persist_fps_id=/mnt/vendor/persist/fps/vendor_id
 persist_fps_id2=/mnt/vendor/persist/fps/last_vendor_id
 
 FPS_VENDOR_NONE=none
-MAX_TIMES=30
+MAX_TIMES=100
 
 # this property store FPS_STATUS_NONE or FPS_STATUS_OK
 # after start fingerprint hal service, the hal service will set this property.

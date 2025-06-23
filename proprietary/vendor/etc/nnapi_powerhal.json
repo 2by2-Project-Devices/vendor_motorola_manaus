@@ -178,11 +178,5 @@
             "id": 2,
             "options": "--opt-bw"
         }
-    ],
-    "smp_signature": [
-        {
-            "hash": "",
-            "options": ""
-        }
     ]
 }

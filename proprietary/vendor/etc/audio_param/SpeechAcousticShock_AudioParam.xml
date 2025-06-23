@@ -5,9 +5,9 @@
   </ParamTree>
   <ParamUnitPool>
     <ParamUnit param_id="0">
-      <Param name="init_db" value="84"/>
-      <Param name="ramp_time" value="4.5"/>
-      <Param name="timeout" value="5"/>
+      <Param name="init_db" value="114"/>
+      <Param name="ramp_time" value="3.5"/>
+      <Param name="timeout" value="6"/>
     </ParamUnit>
   </ParamUnitPool>
 </AudioParam>

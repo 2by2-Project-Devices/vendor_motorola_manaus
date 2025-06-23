@@ -10,7 +10,7 @@
   },
   "camgest params": {
       "y_orient_down_thres": -4.25,
-      "y_orient_up_thres": 4.22
+      "y_orient_up_thres": 4.22,
   },
   "glance params": {
       "motion_threshold": 0.04,
@@ -30,21 +30,6 @@
       "rearm_forced_accel_rotation": 80.0,
       "rearm_conv_cnt": 40,
       "raw_accel_margin": 4.2
-  },
- "tap params": {
-      "double_only": 0,
-      "use_stowed": 1,
-      "idle_timeout_s": 30,
-      "tap_window_ms": 370,
-      "cor_thr": 70.0,
-      "cor_spike_thr": 15.0,
-      "flat_up_deg": 10.0,
-      "flat_up_ang_limit_deg": 2.5,
-      "facing_down_deg": 35.0,
-      "sigz_mag_low_thr": 5.5,
-      "sigz_mag_high_thr": 50.0,
-      "sigz_min_peak_thr": 4.0,
-      "prod_idx": 0
   },
   "offbody params": {
       "alpha": 0.1,
@@ -76,7 +61,7 @@
       "default_scale": 250.0,
       "target_lux": 500,
       "polling_mode_als": 0,
-   },
+  },
   "ps params": {
       "wait": 32,
       "prst_ps": 1,

@@ -2,7 +2,7 @@
 <ParamUnitDesc version="1.1">
 	<CategoryTypeList>
 		<CategoryType name="Profile">
-			<Category name="MagiConference" alias="Normal,HAC,Handset,Handsfree"/>
+			<Category name="MagiConference" alias="Normal,HAC,Handset,Headset,3_pole_Headset,4_pole_Headset,Handsfree,Usb_Headset"/>
 		</CategoryType>
 	</CategoryTypeList>
 	<ParamUnit>

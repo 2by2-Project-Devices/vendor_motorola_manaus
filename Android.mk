@@ -4,8 +4,8 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),cancunf)
+ifeq ($(TARGET_DEVICE),manaus)
 
-$(call add-radio-file-sha1-checked,radio/gpueb.img,454bd97f9ca2cf612d26d0690bfc2a31e67e492a)
+$(call add-radio-file-sha1-checked,radio/gpueb.img,7f2036ff0aa8d094c96e700a9ea046e681516c10)
 
 endif
